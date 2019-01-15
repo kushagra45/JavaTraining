@@ -9,7 +9,6 @@ public class ByteOperator {
         byte max = 127;
         byte min = -128;
         byte sum = (byte) (max + min);
-
         System.out.println(sum);
 
     }
