@@ -1,6 +1,6 @@
 package AdvancedLab.Assignment13;
 
-public class CurrentAccount extends Account {
+public class CurrentAccount extends Account{
 
     double currentAmount;
 

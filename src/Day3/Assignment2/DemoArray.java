@@ -15,7 +15,7 @@ public class DemoArray {
         }
 
         System.out.println("Printing array 2");
-        System.out.println("Hello");
+
         for(int j = 0; j < arr2.length; j++){
             for(int k = 0; k < arr2[0].length; k++){
                 System.out.print(arr2[j][k] + " ");

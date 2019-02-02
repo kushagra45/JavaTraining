@@ -6,7 +6,6 @@ public class SavingsAccount extends Account {
     private int interestRate = 12;
 
     public SavingsAccount(){
-
     }
 
     public SavingsAccount(int accountNo, Customer customer, double balance, double minimumBalance, int interestRate) {
