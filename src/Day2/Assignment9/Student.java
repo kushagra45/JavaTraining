@@ -18,19 +18,20 @@ public class Student {
     public Student(char sType, String fname, String lname){
         studentId = sId;
         sId++;
-        studentType = sType;
-        studentName = fname + lname;
+         studentType = sType;
+         studentName = fname + lname;
     }
 
     public static void displayDetails(Student obj){
-        System.out.println(obj.sId + " " + obj.studentName + " " + obj.studentType);
+         System.out.println(obj.sId + " " + obj.studentName + " " + obj.studentType);
     }
 
     public static void main(String[] args) {
 
-        Student s1 = new Student('D', "Bony", "Thomas");
-        s1.displayDetails(s1);
-        Student s2 = new Student('H', "Dinil", "Bose");
-        s2.displayDetails(s2);
+         Student s1 = new Student('D', "Bony", "Thomas");
+         s1.displayDetails(s1);
+
+         Student s2 = new Student('H', "Dinil", "Bose");
+         s2.displayDetails(s2);
     }
 }

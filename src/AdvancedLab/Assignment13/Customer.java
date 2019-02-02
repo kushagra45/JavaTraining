@@ -1,6 +1,7 @@
 package AdvancedLab.Assignment13;
 
 public class Customer {
+
     private int customerId;
     private String customerName;
     private String customerAddress;
@@ -8,6 +9,7 @@ public class Customer {
 
     public Customer(){
         System.out.println("In default constructor - Customer class");
+
     }
 
     public Customer(int customerId, String customerName, String customerAddress, int pincode) {
